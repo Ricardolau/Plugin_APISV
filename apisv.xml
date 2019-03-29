@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+        <name>PLG_APISV</name>
+        <author>Soluciones Vigo</author>
+        <creationDate>Marzo 2017</creationDate>
+        <copyright>Copyright (C) 2017 SolucionesVigo.</copyright>
+        <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+        <authorEmail>info@solucionesvigo.es</authorEmail>
+        <authorUrl>http://ayuda.svigo.net</authorUrl>
+        <version>1.0.0</version>
+        <description>PLG_APISV_XML_DESCRIPTION</description>
+        <scriptfile>script.php</scriptfile>
+        <files folder="plugins/system/apisv">
+                <file plugin="apisv">apisv.php</file>
+                <folder>language</folder>
+                <filename>script.php</filename>
+        </files>
+        <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="clave_apisv" type="text" default="" label="PLG_APISV_LABEL" description="TPLG_APISV_DECRIPTION_LABEL" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
